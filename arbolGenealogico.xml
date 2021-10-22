@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE arbolGenealogico SYSTEM "arbolGenealogico.dtd">
 <familiares>
+
+
+<!--
+    <familiares 
+xmlns= "http://tempuri.org/arbolGenealogico"
+xsi:schemaLocation="http://tempuri.org/arbolGenealogico arbolGenealogico.xsd"
+xmlns:xsi="“http://www.w3.org/2001/XMLSchema-instance" >
+-->
+
     <familiar nombre="Luis" apellido="Fernandez">
 
         <dataFamiliar>

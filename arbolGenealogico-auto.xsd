@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <xs:schema xmlns="http://tempuri.org/arbolGenealogico" elementFormDefault="qualified" targetNamespace="http://tempuri.org/arbolGenealogico" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
   <xs:element name="familiares">
     <xs:complexType>
       <xs:sequence>
@@ -8,7 +7,6 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
   <xs:element name="familiar">
     <xs:complexType>
       <xs:sequence>
@@ -18,32 +16,27 @@
       <xs:attribute name="apellido" type="xs:string" use="required" />
     </xs:complexType>
   </xs:element>
-
   <xs:element name="dataFamiliar">
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="nacimiento" />
         <xs:element minOccurs="0" maxOccurs="1" ref="fallecimiento" />
         <xs:element minOccurs="1" maxOccurs="unbounded" ref="retrato" />
-        <xs:element minOccurs="0" maxOccurs="3" ref="video" />
-        <xs:element minOccurs="0" maxOccurs="2" ref="familiar" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="video" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="familiar" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="familiar" />
       </xs:sequence>
     </xs:complexType>
-
   </xs:element>
-  <!-- Coordenadas -->
   <xs:element name="coordenadas">
     <xs:complexType>
       <xs:attribute name="nombre" type="xs:string" use="required" />
-      <xs:attribute name="latitud" type="xs:double" use="required" />
-      <xs:attribute name="longitud" type="xs:double" use="required" />
-      <xs:attribute name="altitud" type="xs:double" use="required" />
+      <xs:attribute name="latitud" type="xs:string" use="required" />
+      <xs:attribute name="longitud" type="xs:string" use="required" />
+      <xs:attribute name="altitud" type="xs:string" use="required" />
     </xs:complexType>
   </xs:element>
-
-  <!-- TODO: preguntar esto-->
-  <!-- Fecha -->
-  <xs:element name="fecha" type="xs:date">
+  <xs:element name="fecha">
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="xs:string">
@@ -52,10 +45,7 @@
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
-
-  <!--  -->
-  <xs:element name="lugar" type="xs:string"/>
-
+  <xs:element name="lugar" type="xs:string" />
   <xs:element name="nacimiento">
     <xs:complexType>
       <xs:sequence>
@@ -65,7 +55,6 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
   <xs:element name="fallecimiento">
     <xs:complexType>
       <xs:sequence>

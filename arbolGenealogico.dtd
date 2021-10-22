@@ -19,8 +19,8 @@
 <!ELEMENT nacimiento (fecha,lugar,coordenadas)>
 <!ELEMENT fallecimiento (fecha,lugar,coordenadas)>
 
-<!ELEMENT retrato (#PCDATA)>
-<!ELEMENT video (#PCDATA)>
+<!ELEMENT retrato EMPTY>
+<!ELEMENT video EMPTY>
 
 <!-- Familiar: -->
 <!ATTLIST familiar nombre CDATA #REQUIRED>
@@ -33,9 +33,6 @@
     longitud CDATA #REQUIRED 
     altitud CDATA #REQUIRED
 >
-
-<!-- Fecha: -->
-<!ATTLIST fecha nombre CDATA #REQUIRED>
 
 <!-- Retratos: -->
 <!ATTLIST retrato filename CDATA #REQUIRED>
