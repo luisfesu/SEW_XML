@@ -29,8 +29,8 @@
         <xs:element minOccurs="0" maxOccurs="2" ref="familiar" />
       </xs:sequence>
     </xs:complexType>
-
   </xs:element>
+
   <!-- Coordenadas -->
   <xs:element name="coordenadas">
     <xs:complexType>
@@ -41,9 +41,8 @@
     </xs:complexType>
   </xs:element>
 
-  <!-- TODO: preguntar esto-->
   <!-- Fecha -->
-  <xs:element name="fecha" type="xs:date">
+  <xs:element name="fecha">
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="xs:string">
@@ -53,7 +52,7 @@
     </xs:complexType>
   </xs:element>
 
-  <!--  -->
+  <!-- Lugar -->
   <xs:element name="lugar" type="xs:string"/>
 
   <xs:element name="nacimiento">
@@ -75,6 +74,7 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
   <xs:element name="retrato">
     <xs:complexType>
       <xs:simpleContent>
@@ -84,6 +84,7 @@
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
+
   <xs:element name="video">
     <xs:complexType>
       <xs:simpleContent>
@@ -93,4 +94,5 @@
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
+
 </xs:schema>
