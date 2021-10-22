@@ -3,41 +3,83 @@
 <familiares>
     <familiar nombre="Luis" apellido="Fernandez">
 
-        <fecha nombre="Fecha de Nacimiento"> 03/02/2000 </fecha>
-        <lugarNacimiento>"Gijon"</lugarNacimiento>
-        <coordenadas nombre="Lugar de nacimiento" latitud="1" longitud="2" altitud="3" />
-        <retrato filename="foto-luis.jpg">Retrato de Luis</retrato>
-       
+        <dataFamiliar>
+            <nacimiento>
+                <fecha nombre="Fecha de Nacimiento"> 03/02/2000 </fecha>
+                <lugar>Gijon"</lugar>
+                <coordenadas nombre="Lugar de nacimiento" latitud="1" longitud="2" altitud="3" />
+            </nacimiento>
+
+            <retrato filename="foto-luis.jpg">Retrato de Luis</retrato>
+            <retrato filename="foto-luis2.jpg">Segundo Retrato de Luis</retrato>
+        
+            <video filename="video-luis1.mp4"> Primer Video de Luis</video>
+            <video filename="video-luis2.mp4"> Segundo Video de Luis</video>
+        </dataFamiliar>
+
         <familiar nombre = "Jose" apellido="Fernandez">
+            <dataFamiliar>
 
-            <fecha nombre="Fecha de Nacimiento"> 03/02/1975 </fecha>
-            <lugarNacimiento>"Aviles"</lugarNacimiento>
-            <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
-            <retrato filename="foto-jose.jpg">Retrato de Jose</retrato>
-            
-            <familiar nombre = "Manuel" apellido="Fernandez">
-
-                <fecha nombre="Fecha de Nacimiento"> 03/02/1930 </fecha>
-                <lugarNacimiento>"Aviles"</lugarNacimiento>
+                <fecha nombre="Fecha de Nacimiento"> 03/02/1975 </fecha>
+                <lugar>"Aviles"</lugar>
                 <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
-                <!-- Fallecimiento: -->
-                <fecha nombre="Fecha de Fallecimiento"> 15/12/2005 </fecha>
-                <lugarFallecimiento>"Oviedo"</lugarFallecimiento>
-                <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                
+                <retrato filename="foto-jose.jpg">Retrato de Jose</retrato>
 
-                <retrato filename="foto-manuel.jpg">Retrato de Manuel</retrato>
+            </dataFamiliar>
+
+            <!-- Abuelo -->
+            <familiar nombre = "Manuel" apellido="Fernandez">
+                <dataFamiliar>
+                    <nacimiento>
+                        <fecha nombre="Fecha de Nacimiento"> 03/02/1930 </fecha>
+                        <lugar>"Aviles"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha nombre="Fecha de Fallecimiento"> 15/12/2005 </fecha>
+                        <lugar>"Oviedo"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                    </fallecimiento>
+
+                    <retrato filename="foto-manuel.jpg">Retrato de Manuel</retrato>
+                </dataFamiliar>
 
             </familiar>
+		
+            <!-- Abuela -->
+            <familiar nombre = "Concepcion" apellido="Alvarez">
+                
+                <dataFamiliar>
+                    <nacimiento>
+                        <fecha nombre="Fecha de Nacimiento"> 01/08/1934 </fecha>
+                        <lugar>"Aviles"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha nombre="Fecha de Fallecimiento"> 23/05/2012 </fecha>
+                        <lugar>"Oviedo"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                    </fallecimiento>
+
+                    <retrato filename="foto-manuel.jpg">Retrato de Concepcion</retrato>
+                </dataFamiliar>
+
+            </familiar>   
 
         </familiar>
 
         <familiar nombre = "Angeles" apellido="Suarez">
-
-            <fecha nombre="Fecha de Nacimiento"> 03/02/1975 </fecha>
-            <lugarNacimiento>"Gijon"</lugarNacimiento>
-            <coordenadas nombre="Lugar de nacimiento" latitud="4" longitud="5" altitud="6" />
-            <retrato filename="foto-angeles.jpg">Retrato de Angles</retrato>
-
+            <dataFamiliar>
+                <nacimiento>
+                    <fecha nombre="Fecha de Nacimiento"> 03/02/1975 </fecha>
+                    <lugar>"Gijon"</lugar>
+                    <coordenadas nombre="Lugar de nacimiento" latitud="4" longitud="5" altitud="6" />
+                </nacimiento>
+                <retrato filename="foto-angeles.jpg">Retrato de Angles</retrato>
+            </dataFamiliar>
         </familiar>
 
     </familiar>

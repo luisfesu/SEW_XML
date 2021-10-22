@@ -1,14 +1,26 @@
 <!ELEMENT familiares (familiar+)>
-<!ELEMENT familiar (fecha, lugarNacimiento, coordenadas, 
-    fecha?, lugarFallecimiento?, coordenadas?, retrato+ , familiar?, familiar?)>
+<!ELEMENT familiar (dataFamiliar)>
+
+<!--
+    <!ELEMENT dataFamiliar(fecha, lugarNacimiento, coordenadas, 
+    fecha?, lugarFallecimiento?, coordenadas?, retrato+, video* , familiar?, familiar?)>
+-->
+
+<!ELEMENT dataFamiliar (nacimiento, fallecimiento? , retrato+, video* , familiar?, familiar?)>
+
+<!--
+    Se le pone ? a los padres por si falta alguien, no se conoce la informacion, etc.
+-->
 
 <!ELEMENT coordenadas EMPTY>
 <!ELEMENT fecha (#PCDATA)>
-<!ELEMENT lugarNacimiento (#PCDATA)>
-<!ELEMENT lugarFallecimiento (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+
+<!ELEMENT nacimiento (fecha,lugar,coordenadas)>
+<!ELEMENT fallecimiento (fecha,lugar,coordenadas)>
 
 <!ELEMENT retrato (#PCDATA)>
-
+<!ELEMENT video (#PCDATA)>
 
 <!-- Familiar: -->
 <!ATTLIST familiar nombre CDATA #REQUIRED>
@@ -27,3 +39,6 @@
 
 <!-- Retratos: -->
 <!ATTLIST retrato filename CDATA #REQUIRED>
+
+<!-- videos: -->
+<!ATTLIST video filename CDATA #REQUIRED>
