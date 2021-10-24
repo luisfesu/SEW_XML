@@ -42,6 +42,8 @@
   </xs:element>
 
   <!-- Fecha -->
+  <xs:element name="fecha" type="xs:date"/>
+  <!--
   <xs:element name="fecha">
     <xs:complexType>
       <xs:simpleContent>
@@ -51,6 +53,7 @@
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
+  -->
 
   <!-- Lugar -->
   <xs:element name="lugar" type="xs:string"/>
@@ -76,6 +79,22 @@
   </xs:element>
 
   <xs:element name="retrato">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <!-- <Any_Name>.(jpeg|jpg|png|svg) -->
+        <xd:pattern value="[a-zA-Z0-9_-]+\.(jpg|jpeg|png|svg)"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="video">
+    <xs:simpleType>
+        <!-- <Any_Name>.(mp4|mov|wmv|flv|avi|mkv|webm) -->
+      <xs:pattern value="[a-zA-Z0-9_-]+\.(mp4|mov|wmv|flv|avi|mkv|webm)"/>
+    </xs:simpleType>
+  </xs:element>
+  <!--
+  <xs:element name="retrato">
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="xs:string">
@@ -95,4 +114,5 @@
     </xs:complexType>
   </xs:element>
 
+  -->
 </xs:schema>
