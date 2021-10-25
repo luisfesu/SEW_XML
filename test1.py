@@ -50,6 +50,11 @@ def xml_2_HTML(archivo_XML):
     write_HTML_head()
 
     write('<body>')
+
+    nombre = raiz.find("familiar[1]").attrib.get('nombre')
+    apellido = raiz.find("familiar[1]").attrib.get('apellido')
+    write('<h1>Arbol genealogico de {0} {1}</h1>'.format(nombre, apellido))
+
     # ## Raiz del arbol ############################################################
     write('<h2> La Raiz </h2>')
  
