@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-<!DOCTYPE arbolGenealogico SYSTEM "arbolGenealogico.dtd">
-<familiares>
--->
-
 <familiares 
 xmlns= "http://tempuri.org/arbolGenealogico"
 xsi:schemaLocation="http://tempuri.org/arbolGenealogico arbolGenealogico.xsd"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
 
+<!DOCTYPE arbolGenealogico SYSTEM "arbolGenealogico.dtd">
+<familiares>
+
+<familiares 
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" 
+
+-->
+
+<familiares 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="arbolGenealogico">
 
     <familiar nombre="Luis" apellido="Fernandez">
 
         <dataFamiliar>
             <nacimiento>
-                <fecha> 03/02/2000 </fecha>
+                <fecha> 2000-02-03</fecha>
                 <lugar>Gijon"</lugar>
                 <coordenadas nombre="Lugar de nacimiento" latitud="1" longitud="2" altitud="3" />
             </nacimiento>
@@ -23,17 +31,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
             <retrato>foto-luis.jpg</retrato>
             <retrato>foto-luis2.jpg</retrato>
         
-            <video> video-luis1.mp4</video>
-            <video> video-luis2.mp4 </video>
+            <video>video-luis1.mp4</video>
+            <video>video-luis2.mp4</video>
         </dataFamiliar>
 
         <!-- Padre -->
         <familiar nombre = "Jose" apellido="Fernandez">
             <dataFamiliar>
-
-                <fecha> 03/02/1975 </fecha>
-                <lugar>"Aviles"</lugar>
-                <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                <nacimiento>
+                    <fecha> 1975-02-03 </fecha>
+                    <lugar>"Aviles"</lugar>
+                    <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                </nacimiento>
                 
                 <retrato>foto-jose.jpg</retrato>
 
@@ -43,13 +52,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
             <familiar nombre = "Manuel" apellido="Fernandez">
                 <dataFamiliar>
                     <nacimiento>
-                        <fecha> 03/02/1930 </fecha>
+                        <fecha> 1930-02-03 </fecha>
                         <lugar>"Aviles"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
                     </nacimiento>
 
                     <fallecimiento>
-                        <fecha> 15/12/2005 </fecha>
+                        <fecha> 2005-12-15 </fecha>
                         <lugar>"Oviedo"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
                     </fallecimiento>
@@ -64,13 +73,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
                 
                 <dataFamiliar>
                     <nacimiento>
-                        <fecha> 01/08/1934 </fecha>
+                        <fecha> 1934-08-01 </fecha>
                         <lugar>"Aviles"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
                     </nacimiento>
 
                     <fallecimiento>
-                        <fecha> 23/05/2012 </fecha>
+                        <fecha> 2012-05-23 </fecha>
                         <lugar>"Oviedo"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
                     </fallecimiento>
@@ -86,7 +95,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
         <familiar nombre = "Angeles" apellido="Suarez">
             <dataFamiliar>
                 <nacimiento>
-                    <fecha> 03/02/1975 </fecha>
+                    <fecha> 1975-02-03 </fecha>
                     <lugar>"Gijon"</lugar>
                     <coordenadas nombre="Lugar de nacimiento" latitud="4" longitud="5" altitud="6" />
                 </nacimiento>
@@ -97,13 +106,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
             <familiar nombre = "Luis" apellido="Suarez">
                 <dataFamiliar>
                     <nacimiento>
-                        <fecha> 22/01/1941 </fecha>
+                        <fecha> 1941-01-22 </fecha>
                         <lugar>"Gijon"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
                     </nacimiento>
 
                     <fallecimiento>
-                        <fecha> 03/04/2001 </fecha>
+                        <fecha> 2001-04-03 </fecha>
                         <lugar>"Oviedo"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
                     </fallecimiento>
@@ -118,13 +127,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
                 
                 <dataFamiliar>
                     <nacimiento>
-                        <fecha> 02/09/1943 </fecha>
+                        <fecha> 1943-09-02 </fecha>
                         <lugar>"Gijon"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
                     </nacimiento>
 
                     <fallecimiento>
-                        <fecha> 14/11/2009 </fecha>
+                        <fecha> 2009-11-14 </fecha>
                         <lugar>"Oviedo"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
                     </fallecimiento>

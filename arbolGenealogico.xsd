@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="Windows-1252"?>
-<xs:schema xmlns="http://tempuri.org/arbolGenealogico" elementFormDefault="qualified" targetNamespace="http://tempuri.org/arbolGenealogico" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!--
+  <xs:schema xmlns="http://tempuri.org/arbolGenealogico" elementFormDefault="qualified" targetNamespace="http://tempuri.org/arbolGenealogico" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+-->
+
 
   <xs:element name="familiares">
     <xs:complexType>
@@ -12,7 +17,8 @@
   <xs:element name="familiar">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="dataFamiliar" />
+        <xs:element minOccurs="1" maxOccurs="1" ref="dataFamiliar" />
+        <xs:element minOccurs="0" maxOccurs="2" ref="familiar" />
       </xs:sequence>
       <xs:attribute name="nombre" type="xs:string" use="required" />
       <xs:attribute name="apellido" type="xs:string" use="required" />
@@ -26,7 +32,6 @@
         <xs:element minOccurs="0" maxOccurs="1" ref="fallecimiento" />
         <xs:element minOccurs="1" maxOccurs="unbounded" ref="retrato" />
         <xs:element minOccurs="0" maxOccurs="3" ref="video" />
-        <xs:element minOccurs="0" maxOccurs="2" ref="familiar" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -82,37 +87,18 @@
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <!-- <Any_Name>.(jpeg|jpg|png|svg) -->
-        <xd:pattern value="[a-zA-Z0-9_-]+\.(jpg|jpeg|png|svg)"/>
+        <xs:pattern value="[a-zA-Z0-9 _-]+\.(jpg|jpeg|png|svg)"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:element>
 
   <xs:element name="video">
     <xs:simpleType>
+    <xs:restriction base="xs:string">
         <!-- <Any_Name>.(mp4|mov|wmv|flv|avi|mkv|webm) -->
-      <xs:pattern value="[a-zA-Z0-9_-]+\.(mp4|mov|wmv|flv|avi|mkv|webm)"/>
+        <xs:pattern value="[a-zA-Z0-9\-_]+\.(mp4|mov|wmv|flv|avi|mkv|webm)"/>
+      </xs:restriction>
     </xs:simpleType>
   </xs:element>
-  <!--
-  <xs:element name="retrato">
-    <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="xs:string">
-          <xs:attribute name="filename" type="xs:string" use="required" />
-        </xs:extension>
-      </xs:simpleContent>
-    </xs:complexType>
-  </xs:element>
-
-  <xs:element name="video">
-    <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="xs:string">
-          <xs:attribute name="filename" type="xs:string" use="required" />
-        </xs:extension>
-      </xs:simpleContent>
-    </xs:complexType>
-  </xs:element>
-
-  -->
-</xs:schema>
+  
+  </xs:schema>
