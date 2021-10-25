@@ -1,0 +1,138 @@
+/*Especificidad: 001*/
+body {
+
+  font-family: Tahoma, sans-serif;
+
+  color: #595959;
+  background-color: #fff;
+  
+  padding: 2em;
+  padding-bottom: 0em;
+
+  margin: 0em;
+
+  border-left: 1em solid #3FF2BD;
+
+  border-right: 1em solid #3FF2BD;
+}
+
+/*Especificidad: 001*/
+img {
+  width: 100%;
+}
+
+/*Especificidad: 001*/
+h1 {
+  color: #fff;    
+  background-color:#f26740; 
+  border-radius: 0.75em;
+  
+  text-transform: uppercase;
+
+  padding: 1.75em; 
+  
+  border: 0.4em solid rgba(0, 0, 0, 0.39);
+
+  text-align: center;     
+}
+
+/*Especificidad: 001*/
+h2{
+  color: #666666;
+}
+
+
+/*Especificidad: 002*/
+nav > a {
+
+  color : #fff;
+
+  /* Relative size for the font*/
+  font-size: larger;
+  padding: 0.45em;
+  margin: 0.5em;
+
+  background-color: #066045;
+  border-radius: 0.5em;
+}
+
+/* 
+-- Table Style: ---------------------------------------------------------------------------
+*/
+/*Especificidad: 001*/
+table{
+  width: 90%;
+  border-collapse: collapse;
+}
+
+/*Especificidad: 002*/
+table caption {
+  visibility: hidden;
+}
+
+/*Especificidad: 002*/
+table th, td, tr{
+ 
+  padding: 0.35em;
+
+  border-color: #000;
+  border-width:  0.15em;
+  border-style: solid;
+}
+
+/* 
+-- List Style: ----------------------------------------------------------------------------
+*/
+/*Especificidad: 002*/
+aside ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+/*Especificidad: 002*/
+aside li{
+  text-align: center;
+  padding-bottom: 1em;
+
+}
+
+/* 
+-- Footer Style: --------------------------------------------------------------------------
+*/
+/*Especificidad: 001*/
+footer {
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 1em;
+  
+  border-top: 0.25em solid #646464;
+  border-bottom: 0.25em solid #646464;
+  
+}
+
+/*Especificidad: 002*/
+footer > img {
+  max-height:4em;
+  max-width:4em;
+  margin-right: 4em;
+}
+
+/*Especificidad: 002*/
+footer > a {
+  color: #fff;
+}
+
+/*Especificidad: 002*/
+form label, input, legend{
+  font-size: 2.5vmin;
+}
+
