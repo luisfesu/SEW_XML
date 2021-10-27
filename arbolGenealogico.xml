@@ -119,6 +119,46 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
 
                     <retrato>foto-luis-abuelo.jpg</retrato>
                 </dataFamiliar>
+                
+                <!-- Bisabuelo materno 1 -->
+                <familiar nombre="Manuel" apellido="Suarez">
+                    <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1899-11-12 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 1935-05-12 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                    </fallecimiento>
+
+                    <retrato>foto-manuel-bisabuelo.jpg</retrato>
+                </dataFamiliar>
+
+                </familiar>
+
+                <!-- Bisabuelo materno 1 -->
+                <familiar nombre="Visitacion" apellido="Alvarez">
+                    <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1905-03-17 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 1970-11-11 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                    </fallecimiento>
+
+                    <retrato>foto-visitacion-bisabuela.jpg</retrato>
+                </dataFamiliar>
+
+                </familiar>
 
             </familiar>
 		
@@ -127,19 +167,59 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
                 
                 <dataFamiliar>
                     <nacimiento>
-                        <fecha> 1943-09-02 </fecha>
+                        <fecha> 1923-09-02 </fecha>
                         <lugar>"Gijon"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
                     </nacimiento>
 
                     <fallecimiento>
-                        <fecha> 2009-11-14 </fecha>
+                        <fecha> 2010-02-09 </fecha>
                         <lugar>"Oviedo"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
                     </fallecimiento>
 
                     <retrato>foto-angeles-abuela.jpg</retrato>
                 </dataFamiliar>
+                
+                <!-- Bisabuelo materno 2 -->
+                <familiar nombre="Manuel" apellido="Meana">
+                    <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1897-05-26 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 25-10-1936 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                    </fallecimiento>
+
+                    <retrato>foto-manuelMeana-bisabuelo.jpg</retrato>
+                </dataFamiliar>
+
+                </familiar>
+
+                <!-- Bisabuela materna 2 -->
+                <familiar nombre="Angeles" apellido="Rodriguez">
+                    <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1898-01-12 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 1980-12-20 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                    </fallecimiento>
+
+                    <retrato>foto-angeles-bisabuela.jpg</retrato>
+                </dataFamiliar>
+
+                </familiar>
 
             </familiar>
 
