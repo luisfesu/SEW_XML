@@ -19,7 +19,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="arbolGenealogico">
 
-    <familiar nombre="Luis" apellido="Fernandez">
+    <familiar nombre="Luis" apellido="Fernandez Suarez">
 
         <dataFamiliar>
             <nacimiento>
@@ -36,7 +36,7 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
         </dataFamiliar>
 
         <!-- Padre -->
-        <familiar nombre = "Jose" apellido="Fernandez">
+        <familiar nombre = "Jose" apellido="Fernandez Alvarez">
             <dataFamiliar>
                 <nacimiento>
                     <fecha> 1955-02-03 </fecha>
@@ -162,14 +162,14 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
                             <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
                         </fallecimiento>
 
-                        <retrato>foto-carlota.jpg</retrato>
+                        <retrato>foto-teresa.jpg</retrato>
                     </dataFamiliar>
                 </familiar> 
             </familiar>   
         </familiar>
 
         <!-- Madre -->
-        <familiar nombre = "Angeles" apellido="Suarez">
+        <familiar nombre = "Angeles" apellido="Suarez Garcia">
             <dataFamiliar>
                 <nacimiento>
                     <fecha> 1975-02-03 </fecha>

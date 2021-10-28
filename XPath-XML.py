@@ -70,7 +70,7 @@ def xml_2_HTML(archivo_XML):
 
     ### Bisabuelos ###################################################################
     write_in_file("<h2> Bisabuelos Paternos</h2>")
-    for bis_abuelo in familiarRaiz.findall("./familiar[1]/familiar[1]/familiar"):
+    for bis_abuelo in familiarRaiz.findall("./familiar[1]/familiar[1]/familiar") + familiarRaiz.findall("./familiar[1]/familiar[2]/familiar"):
         parse_familiar_data(bis_abuelo)
 
     write_in_file("<h2> Bisabuelos Maternos</h2>")
