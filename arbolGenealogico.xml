@@ -39,7 +39,7 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
         <familiar nombre = "Jose" apellido="Fernandez">
             <dataFamiliar>
                 <nacimiento>
-                    <fecha> 1975-02-03 </fecha>
+                    <fecha> 1955-02-03 </fecha>
                     <lugar>"Aviles"</lugar>
                     <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
                 </nacimiento>
@@ -49,46 +49,123 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
             </dataFamiliar>
 
             <!-- Abuelo paterno -->
-            <familiar nombre = "Manuel" apellido="Fernandez">
+            <familiar nombre = "Antonio" apellido="Fernandez">
                 <dataFamiliar>
                     <nacimiento>
-                        <fecha> 1930-02-03 </fecha>
-                        <lugar>"Aviles"</lugar>
+                        <fecha> 1900-02-01 </fecha>
+                        <lugar>"La Fueja"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
                     </nacimiento>
 
                     <fallecimiento>
-                        <fecha> 2005-12-15 </fecha>
-                        <lugar>"Oviedo"</lugar>
+                        <fecha> 1975-12-15 </fecha>
+                        <lugar>"Moutas"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
                     </fallecimiento>
 
-                    <retrato>foto-manuel.jpg</retrato>
+                    <retrato>foto-antonio.jpg</retrato>
                 </dataFamiliar>
+
+                <!-- Bisabuelo Paterno -->
+                <familiar nombre = "Ramon" apellido="Fernandez">
+                
+                    <dataFamiliar>
+                        <nacimiento>
+                            <fecha> 1899-09-10 </fecha>
+                            <lugar>"Rubiano"</lugar>
+                            <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                        </nacimiento>
+
+                        <fallecimiento>
+                            <fecha> 1981-05-23 </fecha>
+                            <lugar>"Moutas"</lugar>
+                            <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                        </fallecimiento>
+
+                        <retrato>foto-ramon.jpg</retrato>
+                    </dataFamiliar>
+                </familiar> 
+
+                <familiar nombre = "Carlota" apellido="Lopez">
+                
+                    <dataFamiliar>
+                        <nacimiento>
+                            <fecha> 1903-01-15 </fecha>
+                            <lugar>"El LLobio"</lugar>
+                            <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                        </nacimiento>
+
+                        <fallecimiento>
+                            <fecha> 1943-06-30 </fecha>
+                            <lugar>"El LLobio"</lugar>
+                            <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                        </fallecimiento>
+
+                        <retrato>foto-carlota.jpg</retrato>
+                    </dataFamiliar>
+                </familiar> 
 
             </familiar>
 		
             <!-- Abuela paterna -->
-            <familiar nombre = "Concepcion" apellido="Alvarez">
+            <familiar nombre = "Josefa" apellido="Alvarez">
                 
                 <dataFamiliar>
                     <nacimiento>
-                        <fecha> 1934-08-01 </fecha>
-                        <lugar>"Aviles"</lugar>
+                        <fecha> 1922-08-01 </fecha>
+                        <lugar>"Moutas, Grado"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
                     </nacimiento>
 
                     <fallecimiento>
-                        <fecha> 2012-05-23 </fecha>
+                        <fecha> 2002-05-23 </fecha>
                         <lugar>"Oviedo"</lugar>
                         <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
                     </fallecimiento>
 
-                    <retrato>foto-concepcion.jpg</retrato>
+                    <retrato>foto-josefa.jpg</retrato>
                 </dataFamiliar>
 
-            </familiar>   
+                <!-- Bisabuelo Paterno -->
+                <familiar nombre = "Casimiro" apellido="Alvarez">
+                
+                    <dataFamiliar>
+                        <nacimiento>
+                            <fecha> 1895-04-21 </fecha>
+                            <lugar>"Cornellana"</lugar>
+                            <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                        </nacimiento>
 
+                        <fallecimiento>
+                            <fecha> 1970-05-23 </fecha>
+                            <lugar>"Belmonte"</lugar>
+                            <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                        </fallecimiento>
+
+                        <retrato>foto-casimiro.jpg</retrato>
+                    </dataFamiliar>
+                </familiar> 
+                
+                <!-- Bisabuela Paterna -->
+                <familiar nombre = "Teresa" apellido="Martinez">
+                
+                    <dataFamiliar>
+                        <nacimiento>
+                            <fecha> 1900-12-13 </fecha>
+                            <lugar>"Belmonte"</lugar>
+                            <coordenadas nombre="Lugar de nacimiento" latitud="3" longitud="3" altitud="4" />
+                        </nacimiento>
+
+                        <fallecimiento>
+                            <fecha> 1968-05-23 </fecha>
+                            <lugar>"Belmonte"</lugar>
+                            <coordenadas nombre="Lugar de nacimiento" latitud="6" longitud="6" altitud="1" />
+                        </fallecimiento>
+
+                        <retrato>foto-carlota.jpg</retrato>
+                    </dataFamiliar>
+                </familiar> 
+            </familiar>   
         </familiar>
 
         <!-- Madre -->
