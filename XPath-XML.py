@@ -32,13 +32,15 @@ def xml_2_HTML(archivo_XML):
         print("Error procesando el archivo XML ", archivo_XML)
         exit()
     
-    raiz = arbol.getroot()
+    raiz = arbol.getroot() # Raiz del documento
 
+    # Añadir el Encabezado del documento
     write_in_file('<!DOCTYPE HTML>')
-    write_in_file('<html lang="es">')
+    write_in_file('<html lang="es">') # <html> tag
+    
     write_in_file_HTML_head()
 
-    write_in_file('<body>')
+    write_in_file('<body>') # <body> tag
 
     nombre = raiz.find("familiar[1]").attrib.get('nombre')
     apellido = raiz.find("familiar[1]").attrib.get('apellido')
@@ -47,40 +49,40 @@ def xml_2_HTML(archivo_XML):
     ### Raiz del arbol ##############################################################
     write_in_file('<h2> La Raiz </h2>')
  
-    familiarRaiz =  raiz.find("familiar[1]") 
+    familiar_raiz =  raiz.find("familiar[1]") 
     
-    parse_familiar_data(familiarRaiz)
+    parse_familiar_data(familiar_raiz)
     #################################################################################
 
     ### Padres ######################################################################
     write_in_file("<h2> Los Padres </h2>")
-    for padre in familiarRaiz.findall("./familiar"):
+    for padre in familiar_raiz.findall("./familiar"):
         parse_familiar_data(padre)
     #################################################################################
 
     ### Abuelos ######################################################################
     write_in_file("<h2> Abuelos Paternos</h2>")
-    for abuelo in familiarRaiz.findall("./familiar[1]/familiar"):
+    for abuelo in familiar_raiz.findall("./familiar[1]/familiar"):
         parse_familiar_data(abuelo)
     
     write_in_file("<h2> Abuelos Maternos</h2>")
-    for abuelo in familiarRaiz.findall("./familiar[2]/familiar"):
+    for abuelo in familiar_raiz.findall("./familiar[2]/familiar"):
         parse_familiar_data(abuelo)
     #################################################################################
 
     ### Bisabuelos ###################################################################
     write_in_file("<h2> Bisabuelos Paternos</h2>")
-    for bis_abuelo in familiarRaiz.findall("./familiar[1]/familiar[1]/familiar") + familiarRaiz.findall("./familiar[1]/familiar[2]/familiar"):
+    for bis_abuelo in familiar_raiz.findall("./familiar[1]/familiar[1]/familiar") + familiar_raiz.findall("./familiar[1]/familiar[2]/familiar"):
         parse_familiar_data(bis_abuelo)
 
     write_in_file("<h2> Bisabuelos Maternos</h2>")
-    bisabuelos_maternos = familiarRaiz.findall("./familiar[2]/familiar[1]/familiar") + familiarRaiz.findall("./familiar[2]/familiar[2]/familiar")
+    bisabuelos_maternos = familiar_raiz.findall("./familiar[2]/familiar[1]/familiar") + familiar_raiz.findall("./familiar[2]/familiar[2]/familiar")
 
     for bis_abuelo in bisabuelos_maternos:
         parse_familiar_data(bis_abuelo)
     #################################################################################
-    write_in_file('</body>')
-    write_in_file('</html>')
+    write_in_file('</body>') # </body> tag
+    write_in_file('</html>') # </html> tag
     
 def write_in_file_HTML_head():
     write_in_file('<head>')
@@ -154,8 +156,8 @@ def parse_videos(data, familiar):
 
 def main():
     print(xml_2_HTML.__doc__)
-    archivoXML = "arbolGenealogico.xml"
-    xml_2_HTML(archivoXML)
+    archivo_XML = "arbolGenealogico.xml"
+    xml_2_HTML(archivo_XML)
 
     file.close()
     print
