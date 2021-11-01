@@ -195,6 +195,7 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
                     </fallecimiento>
 
                     <retrato>foto-luis-abuelo.jpg</retrato>
+                    <video>video-luis-abuelo.mp4</video>
                 </dataFamiliar>
                 
                 <!-- Bisabuelo materno 1 -->

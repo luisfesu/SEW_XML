@@ -149,6 +149,42 @@ def write_familiar_data(familiar,x,y):
     write_text("fecha de fallecimiento: " + fecha_fallecimiento, x, y + 60)
     write_text("c. de fallecimiento: " + coordenadas_fallecimiento, x, y + 70)
 
+    write_photos_box(data, x, y)
+    write_videos_box(data, x, y)
+
+
+def write_photos_box(data_familiar, x_origen, y_origen):
+    _x = x_origen + BOX_WIDTH
+    _y = y_origen + 10
+
+    box = '<rect x="{0}" y="{1}" width="{2}" height="{3}" style="fill:#a3d2ff;stroke:black;stroke-width:1" />'.format(
+            str(_x), str(_y), str(BOX_WIDTH - 70), str(BOX_HEIGHT - 20)
+        )
+    write_in_file(box)
+
+    _y = _y + 10
+    write_text("FOTOS:", _x + 10, _y)
+
+    for retrato in data_familiar.findall("./retrato"):
+        _y = _y + 10
+        write_text(retrato.text, _x + 10, _y)
+
+def write_videos_box(data_familiar, x_origen, y_origen):
+    _x = x_origen + BOX_WIDTH + 130
+    _y = y_origen + 10
+    if data_familiar.findall("./video"):
+        box = '<rect x="{0}" y="{1}" width="{2}" height="{3}" style="fill:#b0ffcf;stroke:black;stroke-width:1" />'.format(
+                str(_x), str(_y), str(BOX_WIDTH - 70), str(BOX_HEIGHT - 20)
+            )
+        write_in_file(box)
+
+        _y = _y + 10
+        write_text("VIDEOS:", _x + 10, _y)
+
+        for video in data_familiar.findall("./video"):
+            _y = _y + 10
+            write_text(video.text, _x + 10, _y)
+
 
 def write_familiar_name(nombre_apellidos, x, y):
     """
