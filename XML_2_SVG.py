@@ -128,12 +128,12 @@ def write_familiar_data(familiar,x,y):
     
     lugar_nacimiento = nacimiento.find("./lugar").text
     fecha_nacimiento = nacimiento.find("./fecha").text
-    coordenadas_nacimiento = "Puto cueva"
+    coordenadas_nacimiento = "TODO TODO TODO TODO"
 
     if fallecimiento != None:
         lugar_fallecimiento = fallecimiento.find("./lugar").text
         fecha_fallecimiento = fallecimiento.find("./fecha").text
-        coordenadas_fallecimiento = "Puto cueva"
+        coordenadas_fallecimiento = "TODO TODO TODO TODO"
     else:
         lugar_fallecimiento = " - "
         fecha_fallecimiento = " - "
