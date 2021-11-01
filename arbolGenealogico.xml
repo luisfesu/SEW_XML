@@ -79,7 +79,7 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
                         <fallecimiento>
                             <fecha> 1981-05-23 </fecha>
                             <lugar>"Moutas"</lugar>
-                            <coordenadas  latitud="-6.135327156591371" longitud="-6.135327156591371" altitud="541.2006241592416" />
+                            <coordenadas  latitud="43.34755780215486" longitud="-6.135327156591371" altitud="541.2006241592416" />
                         </fallecimiento>
 
                         <retrato>foto-ramon.jpg</retrato>
@@ -152,7 +152,7 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
                     <dataFamiliar>
                         <nacimiento>
                             <fecha> 1900-12-13 </fecha>
-                            <lugar>"El Bondéu"</lugar>
+                            <lugar>"El Bondeu"</lugar>
                             <coordenadas  latitud="43.36460721978981" longitud="-6.119248951115983" altitud="541.9734861298538" />
                         </nacimiento>
 
