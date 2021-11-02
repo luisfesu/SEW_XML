@@ -52,6 +52,9 @@ def xml_2_svg(archivo_XML):
     raiz = arbol.getroot() # Raiz del documento
     write_in_file_svg_head()
 
+    for child in raiz:
+        print(child.tag, child.attrib)
+
     familiar_raiz = raiz.find("familiar[1]")
     
     # Coordenadas de origen situadas fuera del area visible que permiten crear la raiz del 
