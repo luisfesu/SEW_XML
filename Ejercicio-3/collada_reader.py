@@ -136,6 +136,9 @@ def show_node_info_and_meshes(raiz, node):
     Funcion que muestra la informacion de cada nodo de la escena visual
     junto a las gemotrias que lo componen
     """
+
+    print(statement("Informacion de los nodos de la escena visual y las geometrias que los componen: "))
+
     print(label("\nID Nodo: ") + node.attrib.get('id') + 
         label(" Nombre del Nodo: ") + node.attrib.get('name'))
 

@@ -223,7 +223,7 @@ def write_in_file_svg_head():
 def main():
     print(xml_2_svg.__doc__)
     
-    archivo_XML = "arbolGenealogico.xml"
+    archivo_XML = "../../arbolGenealogico.xml"
     xml_2_svg(archivo_XML)
 
     file.close()

@@ -1,0 +1,28 @@
+<!ELEMENT familiares (familiar+)>
+<!ELEMENT familiar (dataFamiliar, familiar?, familiar?)>
+
+<!ELEMENT dataFamiliar (nacimiento, fallecimiento? , retrato+, video*, comentario*)>
+
+
+<!ELEMENT coordenadas EMPTY>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+
+<!ELEMENT nacimiento (fecha,lugar,coordenadas)>
+<!ELEMENT fallecimiento (fecha,lugar,coordenadas)>
+
+<!ELEMENT retrato (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT comentario (#PCDATA)>
+
+<!-- Familiar: -->
+<!ATTLIST familiar nombre CDATA #REQUIRED>
+<!ATTLIST familiar apellido CDATA #REQUIRED>
+
+<!-- coordenadas: -->
+<!ATTLIST coordenadas 
+    latitud CDATA #REQUIRED 
+    longitud CDATA #REQUIRED 
+    altitud CDATA #REQUIRED
+>

@@ -265,13 +265,13 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
                     <nacimiento>
                         <fecha> 1897-05-26 </fecha>
                         <lugar>"Gijon"</lugar>
-                        <coordenadas  latitud="3" longitud="3" altitud="4" />
+                        <coordenadas  latitud="43.5264723" longitud="-5.6792293" altitud="35.0461139" />
                     </nacimiento>
 
                     <fallecimiento>
-                        <fecha> 25-10-1936 </fecha>
+                        <fecha> 1936-10-25 </fecha>
                         <lugar>"Gijon"</lugar>
-                        <coordenadas  latitud="6" longitud="6" altitud="1" />
+                        <coordenadas  latitud="43.5264723" longitud="-5.6792293" altitud="35.0461139" />
                     </fallecimiento>
 
                     <retrato>foto-manuelMeana-bisabuelo.jpg</retrato>

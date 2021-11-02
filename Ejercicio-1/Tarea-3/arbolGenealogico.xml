@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE arbolGenealogico SYSTEM "arbolGenealogico.dtd">
+
+<familiares>
+
+    <familiar nombre="Luis" apellido="Fernandez Suarez">
+
+        <dataFamiliar>
+            <nacimiento>
+                <fecha> 2000-02-03</fecha>
+                <lugar>Gijon"</lugar>
+                <coordenadas  latitud="43.52797668927192" longitud="-5.606463823443738" altitud="64.28124237392569" />
+            </nacimiento>
+
+            <retrato>foto-luis.jpg</retrato>
+            <retrato>foto-luis2.jpg</retrato>
+        
+            <video>video-luis1.mp4</video>
+            <video>video-luis2.mp4</video>
+
+            <comentario>Comentario por defecto para Luis Fernandez Suarez</comentario>
+            <comentario> Segundo comentario para corroborar su correcto funcionamiento</comentario>
+        </dataFamiliar>
+
+        <!-- Padre -->
+        <familiar nombre = "Jose" apellido="Fernandez Alvarez">
+            <dataFamiliar>
+                <nacimiento>
+                    <fecha> 1955-02-03 </fecha>
+                    <lugar>"Aviles"</lugar>
+                    <coordenadas  latitud="43.34780715322396" longitud="-6.135663741889874" altitud="544.9734860989538" />
+                </nacimiento>
+                
+                <retrato>foto-jose.jpg</retrato>
+                <comentario>Comentario por defecto para Jose Fernandez Alvarez</comentario>
+
+            </dataFamiliar>
+
+            <!-- Abuelo paterno -->
+            <familiar nombre = "Antonio" apellido="Fernandez Lopez">
+                <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1900-02-01 </fecha>
+                        <lugar>"La Fueja"</lugar>
+                        <coordenadas  latitud="43.33674345100294" longitud="-6.15964389485009" altitud="452.4624317622363" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 1975-12-15 </fecha>
+                        <lugar>"Moutas"</lugar>
+                        <coordenadas  latitud="43.34768039408653" longitud="-6.135618472787248" altitud="542.985171935002" />
+                    </fallecimiento>
+
+                    <retrato>foto-antonio.jpg</retrato>
+                    <comentario>Comentario por defecto para Antonio Fernandez Lopez</comentario>
+                </dataFamiliar>
+
+                <!-- Bisabuelo Paterno -->
+                <familiar nombre = "Ramon" apellido="Fernandez">
+                
+                    <dataFamiliar>
+                        <nacimiento>
+                            <fecha> 1899-09-10 </fecha>
+                            <lugar>"Rubiano"</lugar>
+                            <coordenadas  latitud="43.31271069992839" longitud="-6.10905749593076" altitud="502.1746789625089" />
+                        </nacimiento>
+
+                        <fallecimiento>
+                            <fecha> 1981-05-23 </fecha>
+                            <lugar>"Moutas"</lugar>
+                            <coordenadas  latitud="43.34755780215486" longitud="-6.135327156591371" altitud="541.2006241592416" />
+                        </fallecimiento>
+
+                        <retrato>foto-ramon.jpg</retrato>
+                        <comentario>Comentario por defecto para Ramon Fernandez</comentario>
+                    </dataFamiliar>
+                </familiar> 
+
+                <familiar nombre = "Carlota" apellido="Lopez">
+                
+                    <dataFamiliar>
+                        <nacimiento>
+                            <fecha> 1903-01-15 </fecha>
+                            <lugar>"El LLobio"</lugar>
+                            <coordenadas  latitud="43.3434091162145" longitud="-6.13648705812793" altitud="453.2927400227616" />
+                        </nacimiento>
+
+                        <fallecimiento>
+                            <fecha> 1943-06-30 </fecha>
+                            <lugar>"El LLobio"</lugar>
+                            <coordenadas  latitud="43.3438476879764" longitud="-6.135505881985046" altitud="461.3712602547988" />
+                        </fallecimiento>
+
+                        <retrato>foto-carlota.jpg</retrato>
+                        <comentario>Comentario por defecto para Carlota Lopez</comentario>
+                    </dataFamiliar>
+                </familiar> 
+
+            </familiar>
+		
+            <!-- Abuela paterna -->
+            <familiar nombre = "Josefa" apellido="Alvarez Martinez">
+                
+                <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1922-08-01 </fecha>
+                        <lugar>"Moutas, Grado"</lugar>
+                        <coordenadas  latitud="43.34771515771553" longitud="-6.134491602652973" altitud="526.1999686774831" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 2002-05-23 </fecha>
+                        <lugar>"Oviedo"</lugar>
+                        <coordenadas  latitud="43.35687596689566" longitud="-5.865661062062744" altitud="274.5855607634689" />
+                    </fallecimiento>
+
+                    <retrato>foto-josefa.jpg</retrato>
+                    <comentario>Comentario por defecto para Josefa Alvarez Martinez</comentario>
+                </dataFamiliar>
+
+                <!-- Bisabuelo Paterno -->
+                <familiar nombre = "Casimiro" apellido="Alvarez">
+                
+                    <dataFamiliar>
+                        <nacimiento>
+                            <fecha> 1895-04-21 </fecha>
+                            <lugar>"Cornellana"</lugar>
+                            <coordenadas  latitud="43.41178878591152" longitud="-6.158058932110746" altitud="52.61329542081896" />
+                        </nacimiento>
+
+                        <fallecimiento>
+                            <fecha> 1970-05-23 </fecha>
+                            <lugar>"Belmonte"</lugar>
+                            <coordenadas  latitud="43.28223209171539" longitud="-6.215607062411438" altitud="252.7148315248316" />
+                        </fallecimiento>
+
+                        <retrato>foto-casimiro.jpg</retrato>
+                    </dataFamiliar>
+                </familiar> 
+                
+                <!-- Bisabuela Paterna -->
+                <familiar nombre = "Teresa" apellido="Martinez">
+                
+                    <dataFamiliar>
+                        <nacimiento>
+                            <fecha> 1900-12-13 </fecha>
+                            <lugar>"El Bondeu"</lugar>
+                            <coordenadas  latitud="43.36460721978981" longitud="-6.119248951115983" altitud="541.9734861298538" />
+                        </nacimiento>
+
+                        <fallecimiento>
+                            <fecha> 1968-05-23 </fecha>
+                            <lugar>"Moutas"</lugar>
+                            <coordenadas  latitud="43.34798089394807" longitud="-6.135810558702769" altitud="544.9734860989538" />
+                        </fallecimiento>
+
+                        <retrato>foto-teresa.jpg</retrato>
+                    </dataFamiliar>
+                </familiar> 
+            </familiar>   
+        </familiar>
+
+        <!-- Madre -->
+        <familiar nombre = "Angeles" apellido="Suarez Garcia">
+            <dataFamiliar>
+                <nacimiento>
+                    <fecha> 1975-02-03 </fecha>
+                    <lugar>"Gijon"</lugar>
+                    <coordenadas  latitud="43.52797668927192" longitud="-5.667422116625849" altitud="9.444880647146984" />
+                </nacimiento>
+                <retrato>foto-angeles.jpg</retrato>
+                <comentario>Comentario por defecto para Angeles Suarez Garcia</comentario>
+                <comentario>Segundo comentario de ejemplo para Angeles Suarez Garcia</comentario>
+                <comentario>Tercer comentario de ejemplo para Angeles Suarez Garcia</comentario>
+            </dataFamiliar>
+
+            <!-- Abuelo materno -->
+            <familiar nombre = "Luis" apellido="Suarez">
+                <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1941-01-22 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.53346726930953" longitud="-5.661126289303041" altitud="35.09727645566351" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 2001-04-03 </fecha>
+                        <lugar>"Oviedo"</lugar>
+                        <coordenadas  latitud="43.52873305498514" longitud="-5.665850465507061" altitud="12.76785345780008" />
+                    </fallecimiento>
+
+                    <retrato>foto-luis-abuelo.jpg</retrato>
+                    <video>video-luis-abuelo.mp4</video>
+                </dataFamiliar>
+                
+                <!-- Bisabuelo materno 1 -->
+                <familiar nombre="Manuel" apellido="Suarez">
+                    <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1899-11-12 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.53775677629494" longitud="-5.666337766377606" altitud="1.717271534268807" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 1935-05-12 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.53459093050839" longitud="-5.674916231885772" altitud="6.918694544420318" />
+                    </fallecimiento>
+
+                    <retrato>foto-manuel-bisabuelo.jpg</retrato>
+                </dataFamiliar>
+
+                </familiar>
+
+                <!-- Bisabuelo materno 1 -->
+                <familiar nombre="Visitacion" apellido="Alvarez">
+                    <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1905-03-17 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.53805370642201" longitud="-5.659484352823052" altitud="24.99523078803223" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 1970-11-11 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.53761451473579" longitud="-5.655411589108542" altitud="5.957175928873983" />
+                    </fallecimiento>
+
+                    <retrato>foto-visitacion-bisabuela.jpg</retrato>
+                </dataFamiliar>
+
+                </familiar>
+
+            </familiar>
+		
+            <!-- Abuela materna -->
+            <familiar nombre = "Angeles" apellido="Garcia Meana">
+                
+                <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1923-09-02 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.53183453788293" longitud="-5.666153223418592" altitud="23.99637363966366" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 2010-02-09 </fecha>
+                        <lugar>"Oviedo"</lugar>
+                        <coordenadas  latitud="43.52457914734062" longitud="-5.605995563865945" altitud="80.81682052569155" />
+                    </fallecimiento>
+
+                    <retrato>foto-angeles-abuela.jpg</retrato>
+                </dataFamiliar>
+                
+                <!-- Bisabuelo materno 2 -->
+                <familiar nombre="Manuel" apellido="Garcia">
+                    <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1897-05-26 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.5264723" longitud="-5.6792293" altitud="35.0461139" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 1936-10-25 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.5264723" longitud="-5.6792293" altitud="35.0461139" />
+                    </fallecimiento>
+
+                    <retrato>foto-manuelMeana-bisabuelo.jpg</retrato>
+                </dataFamiliar>
+
+                </familiar>
+
+                <!-- Bisabuela materna 2 -->
+                <familiar nombre="Angeles" apellido="Meana">
+                    <dataFamiliar>
+                    <nacimiento>
+                        <fecha> 1898-01-12 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.5320344195607" longitud="-5.65604654140877" altitud="24.57286965138021" />
+                    </nacimiento>
+
+                    <fallecimiento>
+                        <fecha> 1980-12-20 </fecha>
+                        <lugar>"Gijon"</lugar>
+                        <coordenadas  latitud="43.5311450451907" longitud="-5.649676963590991" altitud="39.6757899568505" />
+                    </fallecimiento>
+
+                    <retrato>foto-angeles-bisabuela.jpg</retrato>
+                </dataFamiliar>
+
+                </familiar>
+
+            </familiar>
+
+        </familiar>
+
+    </familiar>
+</familiares>
