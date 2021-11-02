@@ -242,7 +242,7 @@
   <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="Lame" name="Lame" type="NODE">
+      <node id="Lame" name="Hoja" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Plane-mesh" name="Lame">
           <bind_material>
@@ -254,7 +254,7 @@
           </bind_material>
         </instance_geometry>
       </node>
-      <node id="Manche" name="Manche" type="NODE">
+      <node id="Manche" name="Mango" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Circle-mesh" name="Manche">
           <bind_material>
@@ -266,7 +266,7 @@
           </bind_material>
         </instance_geometry>
       </node>
-      <node id="Pommeau" name="Pommeau" type="NODE">
+      <node id="Pommeau" name="Pomo" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 -27.96248 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Plane_001-mesh" name="Pommeau">
           <bind_material>
@@ -278,7 +278,7 @@
           </bind_material>
         </instance_geometry>
       </node>
-      <node id="Garde" name="Garde" type="NODE">
+      <node id="Garde" name="Guarda" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 -11.76264 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#Plane_002-mesh" name="Garde">
           <bind_material>
