@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-<familiares 
-xmlns= "http://tempuri.org/arbolGenealogico"
-xsi:schemaLocation="http://tempuri.org/arbolGenealogico arbolGenealogico.xsd"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-
-<!DOCTYPE arbolGenealogico SYSTEM "arbolGenealogico.dtd">
-<familiares>
-
-<familiares 
-xmlns:xs="http://www.w3.org/2001/XMLSchema"
-xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" 
-
--->
-
 <familiares 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="arbolGenealogico">
@@ -291,7 +276,7 @@ xsi:noNamespaceSchemaLocation="arbolGenealogico">
                 </familiar>
 
                 <!-- Bisabuela materna 2 -->
-                <familiar nombre="Angeles" apellido="Me">
+                <familiar nombre="Angeles" apellido="Meana">
                     <dataFamiliar>
                     <nacimiento>
                         <fecha>1898-01-12</fecha>

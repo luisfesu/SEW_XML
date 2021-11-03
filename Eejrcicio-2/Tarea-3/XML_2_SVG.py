@@ -131,12 +131,12 @@ def write_familiar_data(familiar,x,y):
     
     lugar_nacimiento = nacimiento.find("./lugar").text
     fecha_nacimiento = nacimiento.find("./fecha").text
-    coordenadas_nacimiento = "TODO TODO TODO TODO"
+    coordenadas_nacimiento = nacimiento.find("./coordenadas").attrib.get('longitud')[:7] + "," + nacimiento.find("./coordenadas").attrib.get('latitud')[:7] + "," + nacimiento.find("./coordenadas").attrib.get('altitud')[:7]
 
     if fallecimiento != None:
         lugar_fallecimiento = fallecimiento.find("./lugar").text
         fecha_fallecimiento = fallecimiento.find("./fecha").text
-        coordenadas_fallecimiento = "TODO TODO TODO TODO"
+        coordenadas_fallecimiento =  fallecimiento.find("./coordenadas").attrib.get('longitud')[:7] + "," + fallecimiento.find("./coordenadas").attrib.get('latitud')[:7] + "," + fallecimiento.find("./coordenadas").attrib.get('altitud')[:7]
     else:
         lugar_fallecimiento = " - "
         fecha_fallecimiento = " - "
@@ -154,7 +154,33 @@ def write_familiar_data(familiar,x,y):
 
     write_photos_box(data, x, y)
     write_videos_box(data, x, y)
+    write_comentaries_box(data,x,y)
 
+
+def write_comentaries_box(data_familiar,x_origen,y_origen):
+    n_vids = len(data_familiar.findall("./video"))
+
+    if n_vids <= 0: #No Hay videos
+        _x = x_origen + BOX_WIDTH + 130
+        _y = y_origen + 10
+    else: # Si hay videos
+        _x = x_origen + BOX_WIDTH + 130 + (BOX_WIDTH - 70)
+        _y = y_origen + 10
+
+    if data_familiar.findall("./comentario"):
+        box = '<rect x="{0}" y="{1}" width="{2}" height="{3}" style="fill:#cccccc;stroke:black;stroke-width:1" />'.format(
+                str(_x), str(_y), str(BOX_WIDTH  + 50), str(BOX_HEIGHT - 20)
+            )
+        write_in_file(box)
+
+        _y = _y + 10
+        write_text("COMENTARIOS:", _x + 10, _y)
+
+        for com in data_familiar.findall("./comentario"):
+            _y = _y + 10
+            write_text(com.text, _x + 10, _y)
+
+    
 
 def write_photos_box(data_familiar, x_origen, y_origen):
     _x = x_origen + BOX_WIDTH
@@ -223,7 +249,7 @@ def write_in_file_svg_head():
 def main():
     print(xml_2_svg.__doc__)
     
-    archivo_XML = "../../arbolGenealogico.xml"
+    archivo_XML = "arbolGenealogico.xml"
     xml_2_svg(archivo_XML)
 
     file.close()

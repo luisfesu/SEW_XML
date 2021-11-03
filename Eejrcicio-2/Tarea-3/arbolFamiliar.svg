@@ -3,8 +3,8 @@
 <rect x="10" y="10" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="20" y="20" font-size="10" style="fill:blue"> Luis Fernandez Suarez </text>
 <text x="20" y="30" font-size="8" style="fill:black"> Lugar de nacimiento: Gijon"</text>
-<text x="20" y="40" font-size="8" style="fill:black"> fecha de nacimiento:  2000-02-03</text>
-<text x="20" y="50" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="20" y="40" font-size="8" style="fill:black"> fecha de nacimiento: 2000-02-03</text>
+<text x="20" y="50" font-size="8" style="fill:black"> c. de nacimiento: -5.6064,43.5279,64.2812</text>
 <text x="20" y="60" font-size="8" style="fill:black"> Lugar de fallecimiento:  - </text>
 <text x="20" y="70" font-size="8" style="fill:black"> fecha de fallecimiento:  - </text>
 <text x="20" y="80" font-size="8" style="fill:black"> c. de fallecimiento:  - </text>
@@ -16,74 +16,93 @@
 <text x="360" y="30" font-size="8" style="fill:black"> VIDEOS:</text>
 <text x="360" y="40" font-size="8" style="fill:black"> video-luis1.mp4</text>
 <text x="360" y="50" font-size="8" style="fill:black"> video-luis2.mp4</text>
+<rect x="480" y="20" width="250" height="60" style="fill:#cccccc;stroke:black;stroke-width:1" />
+<text x="490" y="30" font-size="8" style="fill:black"> COMENTARIOS:</text>
+<text x="490" y="40" font-size="8" style="fill:black"> Comentario por defecto para Luis Fernandez Suarez</text>
+<text x="490" y="50" font-size="8" style="fill:black">  Segundo comentario para corroborar su correcto funcionamiento</text>
 <rect x="210" y="200" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="220" y="210" font-size="10" style="fill:blue"> Jose Fernandez Alvarez </text>
 <text x="220" y="220" font-size="8" style="fill:black"> Lugar de nacimiento: "Aviles"</text>
-<text x="220" y="230" font-size="8" style="fill:black"> fecha de nacimiento:  1955-02-03 </text>
-<text x="220" y="240" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="220" y="230" font-size="8" style="fill:black"> fecha de nacimiento: 1955-02-03</text>
+<text x="220" y="240" font-size="8" style="fill:black"> c. de nacimiento: -6.1356,43.3478,544.973</text>
 <text x="220" y="250" font-size="8" style="fill:black"> Lugar de fallecimiento:  - </text>
 <text x="220" y="260" font-size="8" style="fill:black"> fecha de fallecimiento:  - </text>
 <text x="220" y="270" font-size="8" style="fill:black"> c. de fallecimiento:  - </text>
 <rect x="420" y="210" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="430" y="220" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="430" y="230" font-size="8" style="fill:black"> foto-jose.jpg</text>
+<rect x="550" y="210" width="250" height="60" style="fill:#cccccc;stroke:black;stroke-width:1" />
+<text x="560" y="220" font-size="8" style="fill:black"> COMENTARIOS:</text>
+<text x="560" y="230" font-size="8" style="fill:black"> Comentario por defecto para Jose Fernandez Alvarez</text>
 <path d="M 110.0 90 v 150.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="410" y="300" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
-<text x="420" y="310" font-size="10" style="fill:blue"> Antonio Fernandez </text>
+<text x="420" y="310" font-size="10" style="fill:blue"> Antonio Fernandez Lopez </text>
 <text x="420" y="320" font-size="8" style="fill:black"> Lugar de nacimiento: "La Fueja"</text>
-<text x="420" y="330" font-size="8" style="fill:black"> fecha de nacimiento:  1900-02-01 </text>
-<text x="420" y="340" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="420" y="330" font-size="8" style="fill:black"> fecha de nacimiento: 1900-02-01</text>
+<text x="420" y="340" font-size="8" style="fill:black"> c. de nacimiento: -6.1596,43.3367,452.462</text>
 <text x="420" y="350" font-size="8" style="fill:black"> Lugar de fallecimiento: "Moutas"</text>
-<text x="420" y="360" font-size="8" style="fill:black"> fecha de fallecimiento:  1975-12-15 </text>
-<text x="420" y="370" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="420" y="360" font-size="8" style="fill:black"> fecha de fallecimiento: 1975-12-15</text>
+<text x="420" y="370" font-size="8" style="fill:black"> c. de fallecimiento: -6.1356,43.3476,542.985</text>
 <rect x="620" y="310" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="630" y="320" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="630" y="330" font-size="8" style="fill:black"> foto-antonio.jpg</text>
+<rect x="750" y="310" width="250" height="60" style="fill:#cccccc;stroke:black;stroke-width:1" />
+<text x="760" y="320" font-size="8" style="fill:black"> COMENTARIOS:</text>
+<text x="760" y="330" font-size="8" style="fill:black"> Comentario por defecto para Antonio Fernandez Lopez</text>
 <path d="M 310.0 280 v 60.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="610" y="400" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="620" y="410" font-size="10" style="fill:blue"> Ramon Fernandez </text>
 <text x="620" y="420" font-size="8" style="fill:black"> Lugar de nacimiento: "Rubiano"</text>
-<text x="620" y="430" font-size="8" style="fill:black"> fecha de nacimiento:  1899-09-10 </text>
-<text x="620" y="440" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="620" y="430" font-size="8" style="fill:black"> fecha de nacimiento: 1899-09-10</text>
+<text x="620" y="440" font-size="8" style="fill:black"> c. de nacimiento: -6.1090,43.3127,502.174</text>
 <text x="620" y="450" font-size="8" style="fill:black"> Lugar de fallecimiento: "Moutas"</text>
-<text x="620" y="460" font-size="8" style="fill:black"> fecha de fallecimiento:  1981-05-23 </text>
-<text x="620" y="470" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="620" y="460" font-size="8" style="fill:black"> fecha de fallecimiento: 1981-05-23</text>
+<text x="620" y="470" font-size="8" style="fill:black"> c. de fallecimiento: -6.1353,43.3475,541.200</text>
 <rect x="820" y="410" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="830" y="420" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="830" y="430" font-size="8" style="fill:black"> foto-ramon.jpg</text>
+<rect x="950" y="410" width="250" height="60" style="fill:#cccccc;stroke:black;stroke-width:1" />
+<text x="960" y="420" font-size="8" style="fill:black"> COMENTARIOS:</text>
+<text x="960" y="430" font-size="8" style="fill:black"> Comentario por defecto para Ramon Fernandez</text>
 <path d="M 510.0 380 v 60.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="610" y="500" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="620" y="510" font-size="10" style="fill:blue"> Carlota Lopez </text>
 <text x="620" y="520" font-size="8" style="fill:black"> Lugar de nacimiento: "El LLobio"</text>
-<text x="620" y="530" font-size="8" style="fill:black"> fecha de nacimiento:  1903-01-15 </text>
-<text x="620" y="540" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="620" y="530" font-size="8" style="fill:black"> fecha de nacimiento: 1903-01-15</text>
+<text x="620" y="540" font-size="8" style="fill:black"> c. de nacimiento: -6.1364,43.3434,453.292</text>
 <text x="620" y="550" font-size="8" style="fill:black"> Lugar de fallecimiento: "El LLobio"</text>
-<text x="620" y="560" font-size="8" style="fill:black"> fecha de fallecimiento:  1943-06-30 </text>
-<text x="620" y="570" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="620" y="560" font-size="8" style="fill:black"> fecha de fallecimiento: 1943-06-30</text>
+<text x="620" y="570" font-size="8" style="fill:black"> c. de fallecimiento: -6.1355,43.3438,461.371</text>
 <rect x="820" y="510" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="830" y="520" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="830" y="530" font-size="8" style="fill:black"> foto-carlota.jpg</text>
+<rect x="950" y="510" width="250" height="60" style="fill:#cccccc;stroke:black;stroke-width:1" />
+<text x="960" y="520" font-size="8" style="fill:black"> COMENTARIOS:</text>
+<text x="960" y="530" font-size="8" style="fill:black"> Comentario por defecto para Carlota Lopez</text>
 <path d="M 510.0 380 v 160.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="410" y="600" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
-<text x="420" y="610" font-size="10" style="fill:blue"> Josefa Alvarez </text>
+<text x="420" y="610" font-size="10" style="fill:blue"> Josefa Alvarez Martinez </text>
 <text x="420" y="620" font-size="8" style="fill:black"> Lugar de nacimiento: "Moutas, Grado"</text>
-<text x="420" y="630" font-size="8" style="fill:black"> fecha de nacimiento:  1922-08-01 </text>
-<text x="420" y="640" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="420" y="630" font-size="8" style="fill:black"> fecha de nacimiento: 1922-08-01</text>
+<text x="420" y="640" font-size="8" style="fill:black"> c. de nacimiento: -6.1344,43.3477,526.199</text>
 <text x="420" y="650" font-size="8" style="fill:black"> Lugar de fallecimiento: "Oviedo"</text>
-<text x="420" y="660" font-size="8" style="fill:black"> fecha de fallecimiento:  2002-05-23 </text>
-<text x="420" y="670" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="420" y="660" font-size="8" style="fill:black"> fecha de fallecimiento: 2002-05-23</text>
+<text x="420" y="670" font-size="8" style="fill:black"> c. de fallecimiento: -5.8656,43.3568,274.585</text>
 <rect x="620" y="610" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="630" y="620" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="630" y="630" font-size="8" style="fill:black"> foto-josefa.jpg</text>
+<rect x="750" y="610" width="250" height="60" style="fill:#cccccc;stroke:black;stroke-width:1" />
+<text x="760" y="620" font-size="8" style="fill:black"> COMENTARIOS:</text>
+<text x="760" y="630" font-size="8" style="fill:black"> Comentario por defecto para Josefa Alvarez Martinez</text>
 <path d="M 310.0 280 v 360.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="610" y="700" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="620" y="710" font-size="10" style="fill:blue"> Casimiro Alvarez </text>
 <text x="620" y="720" font-size="8" style="fill:black"> Lugar de nacimiento: "Cornellana"</text>
-<text x="620" y="730" font-size="8" style="fill:black"> fecha de nacimiento:  1895-04-21 </text>
-<text x="620" y="740" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="620" y="730" font-size="8" style="fill:black"> fecha de nacimiento: 1895-04-21</text>
+<text x="620" y="740" font-size="8" style="fill:black"> c. de nacimiento: -6.1580,43.4117,52.6132</text>
 <text x="620" y="750" font-size="8" style="fill:black"> Lugar de fallecimiento: "Belmonte"</text>
-<text x="620" y="760" font-size="8" style="fill:black"> fecha de fallecimiento:  1970-05-23 </text>
-<text x="620" y="770" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="620" y="760" font-size="8" style="fill:black"> fecha de fallecimiento: 1970-05-23</text>
+<text x="620" y="770" font-size="8" style="fill:black"> c. de fallecimiento: -6.2156,43.2822,252.714</text>
 <rect x="820" y="710" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="830" y="720" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="830" y="730" font-size="8" style="fill:black"> foto-casimiro.jpg</text>
@@ -91,11 +110,11 @@
 <rect x="610" y="800" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="620" y="810" font-size="10" style="fill:blue"> Teresa Martinez </text>
 <text x="620" y="820" font-size="8" style="fill:black"> Lugar de nacimiento: "El Bondeu"</text>
-<text x="620" y="830" font-size="8" style="fill:black"> fecha de nacimiento:  1900-12-13 </text>
-<text x="620" y="840" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="620" y="830" font-size="8" style="fill:black"> fecha de nacimiento: 1900-12-13</text>
+<text x="620" y="840" font-size="8" style="fill:black"> c. de nacimiento: -6.1192,43.3646,541.973</text>
 <text x="620" y="850" font-size="8" style="fill:black"> Lugar de fallecimiento: "Moutas"</text>
-<text x="620" y="860" font-size="8" style="fill:black"> fecha de fallecimiento:  1968-05-23 </text>
-<text x="620" y="870" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="620" y="860" font-size="8" style="fill:black"> fecha de fallecimiento: 1968-05-23</text>
+<text x="620" y="870" font-size="8" style="fill:black"> c. de fallecimiento: -6.1358,43.3479,544.973</text>
 <rect x="820" y="810" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="830" y="820" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="830" y="830" font-size="8" style="fill:black"> foto-teresa.jpg</text>
@@ -103,23 +122,28 @@
 <rect x="210" y="900" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="220" y="910" font-size="10" style="fill:blue"> Angeles Suarez Garcia </text>
 <text x="220" y="920" font-size="8" style="fill:black"> Lugar de nacimiento: "Gijon"</text>
-<text x="220" y="930" font-size="8" style="fill:black"> fecha de nacimiento:  1975-02-03 </text>
-<text x="220" y="940" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="220" y="930" font-size="8" style="fill:black"> fecha de nacimiento: 1975-02-03</text>
+<text x="220" y="940" font-size="8" style="fill:black"> c. de nacimiento: -5.6674,43.5279,9.44488</text>
 <text x="220" y="950" font-size="8" style="fill:black"> Lugar de fallecimiento:  - </text>
 <text x="220" y="960" font-size="8" style="fill:black"> fecha de fallecimiento:  - </text>
 <text x="220" y="970" font-size="8" style="fill:black"> c. de fallecimiento:  - </text>
 <rect x="420" y="910" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="430" y="920" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="430" y="930" font-size="8" style="fill:black"> foto-angeles.jpg</text>
+<rect x="550" y="910" width="250" height="60" style="fill:#cccccc;stroke:black;stroke-width:1" />
+<text x="560" y="920" font-size="8" style="fill:black"> COMENTARIOS:</text>
+<text x="560" y="930" font-size="8" style="fill:black"> Comentario por defecto para Angeles Suarez Garcia</text>
+<text x="560" y="940" font-size="8" style="fill:black"> Segundo comentario de ejemplo para Angeles Suarez Garcia</text>
+<text x="560" y="950" font-size="8" style="fill:black"> Tercer comentario de ejemplo para Angeles Suarez Garcia</text>
 <path d="M 110.0 90 v 850.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="410" y="1000" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="420" y="1010" font-size="10" style="fill:blue"> Luis Suarez </text>
 <text x="420" y="1020" font-size="8" style="fill:black"> Lugar de nacimiento: "Gijon"</text>
-<text x="420" y="1030" font-size="8" style="fill:black"> fecha de nacimiento:  1941-01-22 </text>
-<text x="420" y="1040" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="420" y="1030" font-size="8" style="fill:black"> fecha de nacimiento: 1941-01-22</text>
+<text x="420" y="1040" font-size="8" style="fill:black"> c. de nacimiento: -5.6611,43.5334,35.0972</text>
 <text x="420" y="1050" font-size="8" style="fill:black"> Lugar de fallecimiento: "Oviedo"</text>
-<text x="420" y="1060" font-size="8" style="fill:black"> fecha de fallecimiento:  2001-04-03 </text>
-<text x="420" y="1070" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="420" y="1060" font-size="8" style="fill:black"> fecha de fallecimiento: 2001-04-03</text>
+<text x="420" y="1070" font-size="8" style="fill:black"> c. de fallecimiento: -5.6658,43.5287,12.7678</text>
 <rect x="620" y="1010" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="630" y="1020" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="630" y="1030" font-size="8" style="fill:black"> foto-luis-abuelo.jpg</text>
@@ -130,11 +154,11 @@
 <rect x="610" y="1100" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="620" y="1110" font-size="10" style="fill:blue"> Manuel Suarez </text>
 <text x="620" y="1120" font-size="8" style="fill:black"> Lugar de nacimiento: "Gijon"</text>
-<text x="620" y="1130" font-size="8" style="fill:black"> fecha de nacimiento:  1899-11-12 </text>
-<text x="620" y="1140" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="620" y="1130" font-size="8" style="fill:black"> fecha de nacimiento: 1899-11-12</text>
+<text x="620" y="1140" font-size="8" style="fill:black"> c. de nacimiento: -5.6663,43.5377,1.71727</text>
 <text x="620" y="1150" font-size="8" style="fill:black"> Lugar de fallecimiento: "Gijon"</text>
-<text x="620" y="1160" font-size="8" style="fill:black"> fecha de fallecimiento:  1935-05-12 </text>
-<text x="620" y="1170" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="620" y="1160" font-size="8" style="fill:black"> fecha de fallecimiento: 1935-05-12</text>
+<text x="620" y="1170" font-size="8" style="fill:black"> c. de fallecimiento: -5.6749,43.5345,6.91869</text>
 <rect x="820" y="1110" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="830" y="1120" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="830" y="1130" font-size="8" style="fill:black"> foto-manuel-bisabuelo.jpg</text>
@@ -142,47 +166,47 @@
 <rect x="610" y="1200" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
 <text x="620" y="1210" font-size="10" style="fill:blue"> Visitacion Alvarez </text>
 <text x="620" y="1220" font-size="8" style="fill:black"> Lugar de nacimiento: "Gijon"</text>
-<text x="620" y="1230" font-size="8" style="fill:black"> fecha de nacimiento:  1905-03-17 </text>
-<text x="620" y="1240" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="620" y="1230" font-size="8" style="fill:black"> fecha de nacimiento: 1905-03-17</text>
+<text x="620" y="1240" font-size="8" style="fill:black"> c. de nacimiento: -5.6594,43.5380,24.9952</text>
 <text x="620" y="1250" font-size="8" style="fill:black"> Lugar de fallecimiento: "Gijon"</text>
-<text x="620" y="1260" font-size="8" style="fill:black"> fecha de fallecimiento:  1970-11-11 </text>
-<text x="620" y="1270" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="620" y="1260" font-size="8" style="fill:black"> fecha de fallecimiento: 1970-11-11</text>
+<text x="620" y="1270" font-size="8" style="fill:black"> c. de fallecimiento: -5.6554,43.5376,5.95717</text>
 <rect x="820" y="1210" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="830" y="1220" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="830" y="1230" font-size="8" style="fill:black"> foto-visitacion-bisabuela.jpg</text>
 <path d="M 510.0 1080 v 160.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="410" y="1300" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
-<text x="420" y="1310" font-size="10" style="fill:blue"> Angeles Garcia </text>
+<text x="420" y="1310" font-size="10" style="fill:blue"> Angeles Garcia Meana </text>
 <text x="420" y="1320" font-size="8" style="fill:black"> Lugar de nacimiento: "Gijon"</text>
-<text x="420" y="1330" font-size="8" style="fill:black"> fecha de nacimiento:  1923-09-02 </text>
-<text x="420" y="1340" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="420" y="1330" font-size="8" style="fill:black"> fecha de nacimiento: 1923-09-02</text>
+<text x="420" y="1340" font-size="8" style="fill:black"> c. de nacimiento: -5.6661,43.5318,23.9963</text>
 <text x="420" y="1350" font-size="8" style="fill:black"> Lugar de fallecimiento: "Oviedo"</text>
-<text x="420" y="1360" font-size="8" style="fill:black"> fecha de fallecimiento:  2010-02-09 </text>
-<text x="420" y="1370" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="420" y="1360" font-size="8" style="fill:black"> fecha de fallecimiento: 2010-02-09</text>
+<text x="420" y="1370" font-size="8" style="fill:black"> c. de fallecimiento: -5.6059,43.5245,80.8168</text>
 <rect x="620" y="1310" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="630" y="1320" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="630" y="1330" font-size="8" style="fill:black"> foto-angeles-abuela.jpg</text>
 <path d="M 310.0 980 v 360.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="610" y="1400" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
-<text x="620" y="1410" font-size="10" style="fill:blue"> Manuel Meana </text>
+<text x="620" y="1410" font-size="10" style="fill:blue"> Manuel Garcia </text>
 <text x="620" y="1420" font-size="8" style="fill:black"> Lugar de nacimiento: "Gijon"</text>
-<text x="620" y="1430" font-size="8" style="fill:black"> fecha de nacimiento:  1897-05-26 </text>
-<text x="620" y="1440" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="620" y="1430" font-size="8" style="fill:black"> fecha de nacimiento: 1897-05-26</text>
+<text x="620" y="1440" font-size="8" style="fill:black"> c. de nacimiento: -5.6792,43.5264,35.0461</text>
 <text x="620" y="1450" font-size="8" style="fill:black"> Lugar de fallecimiento: "Gijon"</text>
-<text x="620" y="1460" font-size="8" style="fill:black"> fecha de fallecimiento:  25-10-1936 </text>
-<text x="620" y="1470" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="620" y="1460" font-size="8" style="fill:black"> fecha de fallecimiento: 1936-10-25</text>
+<text x="620" y="1470" font-size="8" style="fill:black"> c. de fallecimiento: -5.6792,43.5264,35.0461</text>
 <rect x="820" y="1410" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="830" y="1420" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="830" y="1430" font-size="8" style="fill:black"> foto-manuelMeana-bisabuelo.jpg</text>
 <path d="M 510.0 1380 v 60.0 h 100.0" style="fill:transparent;stroke:black" />
 <rect x="610" y="1500" width="200" height="80" style="fill:white;stroke:black;stroke-width:1" />
-<text x="620" y="1510" font-size="10" style="fill:blue"> Angeles Rodriguez </text>
+<text x="620" y="1510" font-size="10" style="fill:blue"> Angeles Meana </text>
 <text x="620" y="1520" font-size="8" style="fill:black"> Lugar de nacimiento: "Gijon"</text>
-<text x="620" y="1530" font-size="8" style="fill:black"> fecha de nacimiento:  1898-01-12 </text>
-<text x="620" y="1540" font-size="8" style="fill:black"> c. de nacimiento: TODO TODO TODO TODO</text>
+<text x="620" y="1530" font-size="8" style="fill:black"> fecha de nacimiento: 1898-01-12</text>
+<text x="620" y="1540" font-size="8" style="fill:black"> c. de nacimiento: -5.6560,43.5320,24.5728</text>
 <text x="620" y="1550" font-size="8" style="fill:black"> Lugar de fallecimiento: "Gijon"</text>
-<text x="620" y="1560" font-size="8" style="fill:black"> fecha de fallecimiento:  1980-12-20 </text>
-<text x="620" y="1570" font-size="8" style="fill:black"> c. de fallecimiento: TODO TODO TODO TODO</text>
+<text x="620" y="1560" font-size="8" style="fill:black"> fecha de fallecimiento: 1980-12-20</text>
+<text x="620" y="1570" font-size="8" style="fill:black"> c. de fallecimiento: -5.6496,43.5311,39.6757</text>
 <rect x="820" y="1510" width="130" height="60" style="fill:#a3d2ff;stroke:black;stroke-width:1" />
 <text x="830" y="1520" font-size="8" style="fill:black"> FOTOS:</text>
 <text x="830" y="1530" font-size="8" style="fill:black"> foto-angeles-bisabuela.jpg</text>

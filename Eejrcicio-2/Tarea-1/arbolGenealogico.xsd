@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="familiares">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="familiar" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="familiar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="dataFamiliar" />
+        <xs:element minOccurs="0" maxOccurs="2" ref="familiar" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+      <xs:attribute name="apellido" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="dataFamiliar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nacimiento" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="fallecimiento" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="retrato" />
+        <xs:element minOccurs="0" maxOccurs="3" ref="video" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="comentario" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Coordenadas -->
+  <xs:element name="coordenadas">
+    <xs:complexType>
+      <xs:attribute name="latitud" type="xs:double" use="required" />
+      <xs:attribute name="longitud" type="xs:double" use="required" />
+      <xs:attribute name="altitud" type="xs:double" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Fecha -->
+  <xs:element name="fecha" type="xs:date"/>
+
+  <!-- Lugar -->
+  <xs:element name="lugar" type="xs:string"/>
+
+  <xs:element name="nacimiento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fecha" />
+        <xs:element ref="lugar" />
+        <xs:element ref="coordenadas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="fallecimiento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fecha" />
+        <xs:element ref="lugar" />
+        <xs:element ref="coordenadas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="retrato">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <!-- <Any_Name>.(jpeg|jpg|png|svg) -->
+        <xs:pattern value="[a-zA-Z0-9 _-]+\.(jpg|jpeg|png|svg)"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="video">
+    <xs:simpleType>
+    <xs:restriction base="xs:string">
+        <!-- <Any_Name>.mp4 -->
+        <xs:pattern value="[a-zA-Z0-9 -_]+\.(mp4)"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="comentario" type="xs:string" />
+  
+  </xs:schema>
